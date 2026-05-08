@@ -1,0 +1,5 @@
+# INTRODUÇÃO
+
+Bem-vindo ao Kit Homebrew de DAGGERHEART! Este pacote contém tudo o que você precisa para começar a criar seu próprio conteúdo para Daggerheart, seja para sua própria campanha em casa ou para vender online para que outros usem em seus jogos. Se você ainda não o fez, recomendamos baixar o Documento de Referência do Sistema Daggerheart disponível em www.daggerheart.com/srd. O SRD contém todo o conteúdo que você está livre para usar sob a Licença de Jogo Comunitário da Darrington Press em suas criações.
+
+Estas seções contêm informações sobre as escolhas de design que fizemos para cada aspecto do jogo, bem como orientações sobre como recomendamos que você aplique essas escolhas às suas próprias criações para melhor se adequarem ao ecossistema de materiais oficiais e outros materiais homebrew de Daggerheart. Lembre-se de que todos os conselhos dados neste pacote são para você usar ou desconsiderar conforme achar melhor — algumas de nossas partes favoritas de Daggerheart quebram as diretrizes que estabelecemos aqui. Use o que funciona para você e deixe de lado o que não funciona.

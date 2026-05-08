@@ -1,0 +1,87 @@
+site_name: DAGGERHEART SRD (Bilingual EN/PT-BR)
+site_url: https://dirodgit.github.io/daggerheart-srd-ptbr/
+repo_url: https://github.com/dirodgit/daggerheart-srd-ptbr
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    scheme: slate
+    primary: red
+    accent: red
+  favicon: favicon.png
+  logo: favicon.png
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Início: README.md
+  - 🇧🇷 Português (PT-BR):
+      - Regras Principais: 
+          - O Que É Isso: contents/O Que É Isso.md
+          - O Básico: contents/O Básico.md
+          - Ciclo de Jogo Principal: contents/Ciclo de Jogo Principal.md
+          - O Foco: contents/O Foco.md
+          - Ordem de Turno: contents/Ordem de Turno e Economia de Ação.md
+          - Combate: contents/Combate.md
+          - Fadiga: contents/Fadiga.md
+          - Condições: contents/Condições.md
+          - Morte: contents/Morte.md
+      - Criação de Personagem:
+          - Guia: contents/Criação de Personagem.md
+          - Ancestralidades: ancestralidades/
+          - Comunidades: comunidades/
+          - Domínios: dominios/
+          - Classes: classes/
+          - Subclasses: subclasses/
+      - Equipamento:
+          - Armaduras: contents/Tabelas de Armaduras.md
+          - Armas Principais: contents/Tabelas de Armas Principais.md
+          - Armas Secundárias: contents/Tabelas de Armas Secundárias.md
+          - Consumíveis: contents/Consumíveis.md
+          - Tesouros: contents/Tesouros.md
+      - Mestre e Aventura:
+          - Orientações: contents/Orientações para o Mestre.md
+          - Adversários: adversarios/
+          - Ambientes: ambientes/
+          - Frames de Campanha: frames/
+      - 🛠️ Kit Homebrew:
+          - Introdução: kit-homebrew/Introducao.md
+          - Princípios de Design: kit-homebrew/Principios de Design.md
+          - Termos-Chave: kit-homebrew/Termos-Chave.md
+          - Guia de Criação: homebrew_kit/
+  - 🇺🇸 English (Original):
+      - Rules:
+          - What Is This: contents/What Is This.md
+          - The Basics: contents/The Basics.md
+          - Core Gameplay Loop: contents/Core Gameplay Loop.md
+          - The Spotlight: contents/The Spotlight.md
+          - Turn Order: contents/Turn Order and Action Economy.md
+          - Combat: contents/Combat.md
+          - Stress: contents/Stress.md
+          - Conditions: contents/Conditions.md
+          - Death: contents/Death.md
+      - Character Creation:
+          - Ancestries: ancestries/
+          - Communities: communities/
+          - Domains: domains/
+          - Classes: classes/
+          - Subclasses: subclasses/
+      - Equipment:
+          - Armor: contents/Armor Tables.md
+          - Primary Weapons: contents/Primary Weapon Tables.md
+          - Secondary Weapons: contents/Secondary Weapon Tables.md
+          - Consumables: contents/Consumables.md
+          - Loot: contents/Loot.md
+      - GM & Adventures:
+          - GM Guidance: contents/GM Guidance.md
+          - Adversaries: adversaries/
+          - Environments: environments/
+          - Campaign Frames: contents/Campaign Frames.md
+
+extra_css:
+  - extra.css

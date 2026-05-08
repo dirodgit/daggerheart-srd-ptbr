@@ -1,0 +1,7 @@
+﻿# ADVANCED QUARTERSTAFF
+
+**Atributo:** Instinct; **Alcance:** Melee; **Dano:** d10+9 phy; **Carga:** Two-Handed
+
+**Característica:** —
+
+*Arma Principal - Tier 3*

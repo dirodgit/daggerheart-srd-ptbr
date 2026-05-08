@@ -1,0 +1,254 @@
+﻿[
+  {
+    "name": "Mecânico",
+    "description": "Mecânicos são seres mecânicos sencientes construídos a partir de uma variedade de materiais, incluindo metal, madeira e pedra. Eles podem se assemelhar a humanoides, animais ou até mesmo objetos inanimados. Como os seres orgânicos, seus corpos vêm em uma ampla gama de tamanhos. Devido à sua construção sob medida, muitos mecânicos têm configurações físicas altamente especializadas. Exemplos incluem mãos com garras para agarrar, rodas para movimento ou armamento embutido.\n\nMuitos mecânicos adotam modificações corporais tanto por estilo quanto por função, e membros de outras ancestralidades frequentemente recorrem a artesãos mecânicos para construir auxílios de mobilidade personalizados e adornos físicos. Outras ancestralidades podem criar mecânicos, inclusive usando suas próprias características físicas como inspiração, mas também é comum que mecânicos construam uns aos outros. A vida de um mecânico se estende enquanto ele for capaz de adquirir ou fabricar novas peças, tornando sua forma física efetivamente imortal. Dito isso, suas mentes estão sujeitas aos efeitos do tempo e se deterioram conforme a magia que os alimenta perde potência.",
+    "feats": [
+      {
+        "name": "Design Proposital",
+        "text": "Decida quem o criou e com que propósito. Na criação do personagem, escolha uma de suas Experiências que melhor se alinhe a esse propósito e ganhe um bônus permanente de +1 nela."
+      },
+      {
+        "name": "Eficiente",
+        "text": "Quando você realiza um descanso curto, pode escolher uma ação de descanso longo em vez de uma de descanso curto."
+      }
+    ]
+  },
+  {
+    "name": "Drakona",
+    "description": "Drakona assemelham-se a dragões sem asas em forma humanoide e possuem um poderoso sopro elemental. Todos os drakona têm escamas grossas que fornecem excelente armadura natural contra ataques e as forças da natureza. Eles são grandes em tamanho, variando de 1,5m a 2,1m em média, com dentes longos e afiados. Novos dentes crescem ao longo da vida de aproximadamente 350 anos de um Drakona, então eles nunca correm o risco de perder permanentemente um incisivo. Ao contrário de seus ancestrais dragões, os drakona não têm asas e não podem voar sem ajuda mágica. Membros desta ancestralidade transmitem o elemento de seu sopro através das gerações, embora em casos raros, o poder elemental de um drakona possa diferir do restante de sua família.",
+    "feats": [
+      {
+        "name": "Escamas",
+        "text": "Suas escamas agem como proteção natural. Quando você sofreria dano Severo, pode **marcar uma Fadiga** para marcar 1 Ponto de Vida a menos."
+      },
+      {
+        "name": "Sopro Elemental",
+        "text": "Escolha um elemento para o seu sopro (como eletricidade, fogo ou gelo). Você pode usar este sopro contra um alvo ou grupo de alvos em alcance Muito Próximo, tratando-o como uma arma de Instinto que causa **d8** de dano mágico usando sua Proficiência."
+      }
+    ]
+  },
+  {
+    "name": "Anão",
+    "description": "Anões são mais facilmente reconhecidos como humanoides baixos com estruturas quadradas, musculatura densa e cabelos grossos. Sua altura média varia de 1,2m a 1,65m, e eles são frequentemente largos em proporção à sua estatura. Sua pele e unhas contêm uma grande quantidade de queratina, tornando-os naturalmente resilientes. Isso permite que os anões cravem pedras preciosas em seus corpos e se decorem com tatuagens ou piercings. Seus cabelos crescem densamente — geralmente na cabeça, mas alguns anões têm pelos grossos por todo o corpo também. Anões de todos os gêneros podem deixar crescer pelos faciais, que muitas vezes estilizam em arranjos elaborados. Tipicamente, anões vivem até 250 anos de idade, mantendo sua massa muscular bem na vida tardia.",
+    "feats": [
+      {
+        "name": "Pele Grossa",
+        "text": "Quando você sofre dano Menor, pode **marcar 2 de Fadiga** em vez de marcar um Ponto de Vida."
+      },
+      {
+        "name": "Fortitude Aumentada",
+        "text": "**Gaste 3 de Esperança** para reduzir pela metade o dano físico recebido."
+      }
+    ]
+  },
+  {
+    "name": "Elfo",
+    "description": "Elfos são tipicamente humanoides altos com orelhas pontudas e sentidos aguçadamente sintonizados. Suas orelhas variam em tamanho e formato pontiagudo e, conforme envelhecem, as pontas começam a cair. Embora os elfos venham em uma ampla gama de tipos de corpo, todos são bastante altos, com alturas variando de cerca de 1,8m a 2m. Todos os elfos têm a habilidade de entrar em um transe celestial, em vez de dormir. Isso permite que descansem efetivamente em um curto período de tempo.\n\nAlguns elfos possuem o que é conhecido como uma \"forma mística\", que ocorre quando um elfo se dedicou ao estudo ou proteção do mundo natural tão profundamente que sua forma física muda. Essas características podem incluir sardas celestiais, a presença de folhas, vinhas ou flores em seus cabelos, olhos que tremeluzem como fogo e muito mais. Às vezes, esses traços são herdados dos pais, mas se um elfo mudar seu ambiente ou foco mágico, sua aparência muda com o tempo. Como os elfos vivem por cerca de 350 anos, esses traços podem mudar mais de uma vez ao longo de sua vida.",
+    "feats": [
+      {
+        "name": "Reações Rápidas",
+        "text": "**Marque uma de Fadiga** para ganhar vantagem em uma rolagem de reação."
+      },
+      {
+        "name": "Transe Celestial",
+        "text": "Durante um descanso, você pode entrar em transe para escolher uma ação de interregno adicional."
+      }
+    ]
+  },
+  {
+    "name": "Fada",
+    "description": "Fadas são criaturas humanoides aladas com características de insetos. Essas características cobrem um amplo espectro de humanoide a insectoide — algumas possuem braços adicionais, olhos compostos, órgãos de luz, exoesqueletos quitinosos ou ferrões. Devido aos seus laços estreitos com o mundo natural, elas também possuem frequentemente atributos que as permitem se misturar com várias plantas. A altura média de uma fada varia de cerca de 60cm a 1,5m, mas algumas fadas crescem até 2,1m de altura. Todas as fadas possuem asas membranosas e cada uma passa por um processo de metamorfose. O processo e as mudanças diferem de fada para fada, mas durante essa transformação, cada indivíduo manifesta a aparência única que carregará pelo resto de sua vida de aproximadamente 50 anos.",
+    "feats": [
+      {
+        "name": "Dobrador de Sorte",
+        "text": "Uma vez por sessão, após você ou um aliado voluntário em alcance Próximo realizar uma rolagem de ação, você pode **gastar 3 de Esperança** para rolar novamente os Dados de Dualidade."
+      },
+      {
+        "name": "Asas",
+        "text": "Você pode voar. Enquanto voa, você pode **marcar uma Fadiga** após um adversário realizar um ataque contra você para ganhar um bônus de +2 em sua Evasão contra aquele ataque."
+      }
+    ]
+  },
+  {
+    "name": "Fauno",
+    "description": "Faunos assemelham-se a bodes humanoides com chifres curvos, pupilas quadradas e cascos fendidos. Embora suas aparências possam variar, a maioria dos faunos tem um torso humanoide e uma parte inferior do corpo de bode coberta por pelos densos. Os rostos de fauno podem ser mais caprinos ou mais humanos, e eles têm uma grande variedade de formatos de orelhas e chifres. Os chifres de fauno variam de curtos com curvatura mínima a muito maiores com um enrolamento distinto. O fauno médio varia de 1,2m a 2m de altura, mas sua altura pode mudar drasticamente de um momento para o outro com base em sua postura. A maioria dos faunos tem membros proporcionalmente longos, não importa seu tamanho ou formato, e são conhecidos por sua habilidade de desferir golpes poderosos com seus cascos partidos. Faunos vivem por cerca de 225 anos e, conforme envelhecem, sua aparência pode se tornar cada vez mais parecida com a de um bode.",
+    "feats": [
+      {
+        "name": "Salto Caprino",
+        "text": "Você pode saltar para qualquer lugar dentro do alcance Próximo como se estivesse usando movimento normal, permitindo-lhe saltar obstáculos, pular lacunas ou escalar barreiras com facilidade."
+      },
+      {
+        "name": "Coice",
+        "text": "Quando você tem sucesso em um ataque contra um alvo em alcance de Melê, você pode **marcar uma Fadiga** para se impulsionar para longe dele, causando **2d6** de dano extra e empurrando a si mesmo ou o alvo para o alcance Muito Próximo."
+      }
+    ]
+  },
+  {
+    "name": "Firbolg",
+    "description": "Firbolgs são humanoides bovinos tipicamente reconhecidos por seus narizes largos e orelhas longas e caídas. Alguns têm rostos que são uma mistura de humanoide e bisão, boi, vaca ou outras criaturas bovinas. Outros, frequentemente referidos como minotauros, têm cabeças que se assemelham inteiramente a gado. Eles são criaturas altas e musculosas, com caudas longas variando de cerca de 90cm a 2,1m, e possuem força notável não importa a idade. Alguns firbolgs são conhecidos por usar essa força para investir contra seus adversários, uma ação que é particularmente eficaz para aqueles que têm um dos muitos estilos de chifres comumente encontrados nesta ancestralidade. Embora suas características únicas possam variar, todos os firbolgs são cobertos por pelos, que podem ter cores suaves e tons de terra, ou vir em uma variedade de tons pastéis, como rosas e azuis suaves. Em média, firbolgs vivem por cerca de 150 anos.",
+    "feats": [
+      {
+        "name": "Investida",
+        "text": "Quando você tem sucesso em um Teste de Agilidade para se mover do alcance Longe ou Muito Longe para o alcance de Melê com um ou mais alvos, você pode **marcar uma Fadiga** para causar **1d12** de dano físico a todos os alvos em alcance de Melê."
+      },
+      {
+        "name": "Inabalável",
+        "text": "Quando você marcaria uma Fadiga, role um **d6**. Em um resultado 6, não a marque."
+      }
+    ]
+  },
+  {
+    "name": "Fungril",
+    "description": "Fungris assemelham-se a cogumelos humanoides. Eles podem ter uma aparência mais humanoide ou mais fúngica, e vêm em uma variedade de cores, de tons de terra a vermelhos, amarelos, roxos e azuis brilhantes. Fungris exibem uma incrível variedade de corpos, rostos e membros, pois não há uma única forma comum entre eles. Até mesmo suas alturas variam de meros 60cm a impressionantes 2,1m. Embora a vida comum de um fungri seja de cerca de 300 anos, alguns foram relatados vivendo muito mais. Eles podem se comunicar não verbalmente, e muitos membros desta ancestralidade usam uma rede micelial para trocar informações quimicamente com outros fungris em longas distâncias.",
+    "feats": [
+      {
+        "name": "Rede Fungri",
+        "text": "Faça um **Teste de Instinto (12)** para usar sua rede micelial para falar com outros de sua ancestralidade. Em um sucesso, você pode se comunicar através de qualquer distância."
+      },
+      {
+        "name": "Conexão com a Morte",
+        "text": "Enquanto toca um cadáver que morreu recentemente, você pode **marcar uma Fadiga** para extrair uma memória do cadáver relacionada a uma emoção ou sensação específica de sua escolha."
+      }
+    ]
+  },
+  {
+    "name": "Galapa",
+    "description": "Galapas assemelham-se a tartarugas antropomórficas com cascos grandes e abobadados nos quais podem se retrair. Em média, variam de 1,2m a 1,8m de altura, e seus formatos de cabeça e corpo podem se assemelhar a qualquer tipo de tartaruga. Galapas vêm em uma variedade de tons de terra — na maioria das vezes tons de verde e marrom — e possuem padrões únicos em seus cascos. Membros desta ancestralidade podem recolher a cabeça, braços e pernas em seu casco para proteção, usando-o como um escudo natural quando medidas defensivas são necessárias. Alguns suplementam a força ou aparência de seu casco anexando armadura ou esculpindo designs únicos, mas o processo é extremamente doloroso. A maioria dos galapas se move lentamente, não importa a idade, e eles podem viver aproximadamente 150 anos.",
+    "feats": [
+      {
+        "name": "Casco",
+        "text": "Ganhe um bônus em seus limiares de dano igual à sua Proficiência."
+      },
+      {
+        "name": "Retrair",
+        "text": "**Marque uma Fadiga** para se retrair em seu casco. Enquanto estiver em seu casco, você tem resistência a dano físico, tem desvantagem em rolagens de ação e não pode se mover."
+      }
+    ]
+  },
+  {
+    "name": "Gigante",
+    "description": "Gigantes são humanoides imponentes com ombros largos, braços longos e de um a três olhos. Gigantes adultos variam de 2m a 2,6m de altura e são naturalmente musculosos, independentemente do tipo de corpo. Eles são facilmente reconhecidos por suas estruturas largas e braços e pescoços alongados. Embora possam ter até três olhos, todos os gigantes nascem sem nenhum e permanecem sem visão durante o primeiro ano de vida. Até que um gigante complete 10 anos e suas características se desenvolvam totalmente, a formação de seus olhos pode flutuar. Aqueles com um único olho são comumente conhecidos como ciclope. A vida média de um gigante é de cerca de 75 anos.",
+    "feats": [
+      {
+        "name": "Resistência",
+        "text": "Ganhe um espaço de Ponto de Vida adicional na criação do personagem."
+      },
+      {
+        "name": "Alcance",
+        "text": "Trate qualquer arma, habilidade, feitiço ou outra característica que tenha alcance de Melê como se tivesse alcance Muito Próximo em vez disso."
+      }
+    ]
+  },
+  {
+    "name": "Goblin",
+    "description": "Goblins são pequenos humanoides facilmente reconhecíveis por seus olhos grandes e orelhas membranosas massivas. Com audição aguçada e visão afiada, eles percebem detalhes tanto a grandes distâncias quanto na escuridão, permitindo que se movam por ambientes menos ideais com facilidade. Suas cores de pele e olhos são incrivelmente variadas, sem nenhum matiz, seja vibrante ou suave, mais dominante que outro. Um goblin típico mede entre 90cm e 1,2m, e cada uma de suas orelhas tem aproximadamente o tamanho de sua cabeça. Goblins são conhecidos por usar posições de orelha para efeitos muito específicos ao se comunicarem não verbalmente. A vida de um goblin é de cerca de 100 anos, e muitos mantêm sua audição e visão aguçadas até a idade avançada.",
+    "feats": [
+      {
+        "name": "Pé Ligeiro",
+        "text": "Você ignora desvantagem em Testes de Agilidade."
+      },
+      {
+        "name": "Sentido de Perigo",
+        "text": "Uma vez por descanso, **marque uma Fadiga** para forçar um adversário a rolar novamente um ataque contra você ou um aliado em alcance Muito Próximo."
+      }
+    ]
+  },
+  {
+    "name": "Pequenino",
+    "description": "Pequeninos são pequenos humanoides com grandes pés peludos e orelhas arredondadas proeminentes. Em média, os pequeninos têm de 90cm a 1,2m de altura, e suas orelhas, nariz e pés são maiores em proporção ao resto do corpo. Membros desta ancestralidade vivem por cerca de 150 anos, e a aparência de um pequenino provavelmente permanecerá jovem mesmo conforme progridem da idade adulta para a velhice. Pequeninos são naturalmente sintonizados com os campos magnéticos do Reino Mortal, garantindo-lhes uma forte bússola interna. Eles também possuem sentidos aguçados de audição e olfato, e frequentemente podem detectar aqueles que lhes são familiares pelo som de seus movimentos.",
+    "feats": [
+      {
+        "name": "Portador da Sorte",
+        "text": "No início de cada sessão, todos no seu grupo ganham uma Esperança."
+      },
+      {
+        "name": "Bússola Interna",
+        "text": "Quando você rolar um 1 no seu Dado de Esperança, você pode rolá-lo novamente."
+      }
+    ]
+  },
+  {
+    "name": "Humano",
+    "description": "Humanos são mais facilmente reconhecidos por suas mãos destras, orelhas arredondadas e corpos construídos para resistência. Sua altura média varia de pouco menos de 1,5m a cerca de 2m. Eles têm uma ampla variedade de biotipos, com alguns sendo bastante largos, outros esguios, e muitos habitando o espectro entre os dois. Humanos são fisicamente adaptáveis e se ajustam a climas severos com relativa facilidade. No geral, humanos vivem até os 100 anos, com seus corpos mudando dramaticamente entre seus anos mais jovens e mais velhos.",
+    "feats": [
+      {
+        "name": "Vigor Elevado",
+        "text": "Ganhe um espaço de Fadiga adicional na criação do personagem."
+      },
+      {
+        "name": "Adaptabilidade",
+        "text": "Quando você falha em uma rolagem que utilizou uma de suas Experiências, você pode marcar uma Fadiga para rolar novamente."
+      }
+    ]
+  },
+  {
+    "name": "Infernir",
+    "description": "Infernirs são humanoides que possuem dentes caninos afiados, orelhas pontudas e chifres. Eles são descendentes de demônios dos Círculos Inferiores. Em média, infernirs variam em altura de 1,5m a 2,1m e são conhecidos por terem dedos longos e unhas pontiagudas. Alguns têm caudas longas, finas e lisas que terminam em pontas, garfos ou pontas de flecha. É comum que infernirs tenham dois ou quatro chifres — embora alguns tenham coroas de muitos chifres, ou apenas um. Esses chifres também podem crescer assimetricamente, formando formatos únicos, muitas vezes curvos, que os infernirs aprimoram com entalhes e ornamentação. Sua pele, cabelo e chifres vêm em uma variedade de cores que podem incluir tons pastéis suaves, tons nítidos ou matizes vibrantes, como escarlate rosado, roxo profundo e preto azeviche.\n\nInfernirs possuem um \"semblante terrível\" que se manifesta tanto involuntariamente, como quando sentem medo ou outras emoções fortes, quanto propositalmente, como quando desejam intimidar um adversário. Este semblante pode modificar brevemente sua aparência de várias maneiras, incluindo o alongamento de seus dentes e unhas, a mudança das cores de seus olhos, a torção de seus chifres ou o aumento de sua altura. Em média, infernirs vivem até 350 anos, com alguns atribuindo essa longevidade à sua linhagem demoníaca.",
+    "feats": [
+      {
+        "name": "Destemido",
+        "text": "Quando você rola com Medo, pode **marcar 2 de Fadiga** para transformá-la em uma rolagem com Esperança em vez disso."
+      },
+      {
+        "name": "Semblante Terrível",
+        "text": "Você tem vantagem em rolagens para intimidar criaturas hostis."
+      }
+    ]
+  },
+  {
+    "name": "Katari",
+    "description": "Katari são humanoides felinos com garras retráteis, pupilas fendidas verticalmente e orelhas altas e triangulares. Eles também podem ter dentes caninos pequenos e pontiagudos, pelo macio e bigodes longos que auxiliam sua percepção e navegação. Suas orelhas podem girar quase 180 graus para detectar som, somando-se aos seus sentidos aguçados. Katari podem parecer mais ou menos felinos ou humanoides, com atributos felinos na forma de pelos, bigodes e focinho. Cerca de metade da população katari tem caudas. Sua pele e pelo vêm em uma ampla gama de tons e padrões, incluindo cores sólidas, tons de chita, listras tigradas e uma variedade de manchas, remendos, marmorizados ou faixas. Sua altura varia de cerca de 90cm a 2m, e eles vivem até cerca de 150 anos.",
+    "feats": [
+      {
+        "name": "Instintos Felinos",
+        "text": "Quando você faz um Teste de Agilidade, você pode **gastar 2 de Esperança** para rolar novamente seu Dado de Esperança."
+      },
+      {
+        "name": "Garras Retráteis",
+        "text": "Faça um **Teste de Agilidade** para arranhar um alvo em alcance de Melê. Em um sucesso, eles se tornam temporariamente Vulneráveis."
+      }
+    ]
+  },
+  {
+    "name": "Orc",
+    "description": "Orcs são humanoides mais facilmente reconhecidos por suas feições quadradas e presas de javali que se projetam de sua mandíbula inferior. As presas vêm em vários tamanhos e, embora se estendam da boca, não são usadas para consumir comida. Em vez disso, muitos orcs escolhem decorar suas presas com ornamentação significativa. Orcs tipicamente vivem por 125 anos e, a menos que alteradas, suas presas continuam a crescer ao longo de suas vidas. Suas orelhas são pontudas, e seu cabelo e pele tipicamente têm tons de verde, azul, rosa ou cinza. Orcs tendem a um biotipo muscular, e sua altura média varia de 1,5m a 2m.",
+    "feats": [
+      {
+        "name": "Robusto",
+        "text": "Quando você tem apenas 1 Ponto de Vida restante, ataques contra você têm desvantagem."
+      },
+      {
+        "name": "Presas",
+        "text": "Quando você tem sucesso em um ataque contra um alvo em alcance de Melê, você pode **gastar uma Esperança** para traspassar o alvo com suas presas, causando **1d6** de dano extra."
+      }
+    ]
+  },
+  {
+    "name": "Ribbet",
+    "description": "Ribbets assemelham-se a sapos antropomórficos com olhos protuberantes e mãos e pés palmados. Eles têm pele lisa (embora às vezes verrugosa) e úmida, e olhos posicionados em cada lado da cabeça. Alguns ribbets têm patas traseiras com mais de duas vezes o comprimento de seu torso, enquanto outros têm membros curtos. Não importa seu tamanho (que varia de cerca de 90cm a 1,35m), os ribbets se movem principalmente saltando. Todos os ribbets têm apêndices palmados, permitindo que nadem com facilidade. Alguns ribbets possuem uma camuflagem natural verde e marrom, enquanto outros são vibrantemente coloridos com padrões ousados. Não importa sua aparência, todos os ribbets nascem de ovos depositados na água, eclodem como girinos e, após cerca de 6 a 7 anos, crescem e se tornam anfíbios que podem se mover em terra firme. Ribbets vivem por aproximadamente 100 anos.",
+    "feats": [
+      {
+        "name": "Anfíbio",
+        "text": "Você pode respirar e se mover naturalmente debaixo d'água."
+      },
+      {
+        "name": "Língua Longa",
+        "text": "Você pode usar sua língua longa para agarrar coisas em alcance Próximo. **Marque uma Fadiga** para usar sua língua como uma arma de Destreza de alcance Próximo que causa **d12** de dano físico usando sua Proficiência."
+      }
+    ]
+  },
+  {
+    "name": "Simiah",
+    "description": "Simiah assemelham-se a macacos e grandes símios antropomórficos com membros longos e pés preênseis. Embora sua aparência reflita todas as criaturas símias, do maior gorila ao menor sagui, seu tamanho não se alinha com seus equivalentes animais, e eles podem ter de 60cm a 1,8m de altura. Todos os simiah podem usar seus pés destros para comunicação não verbal, trabalho e combate. Além disso, alguns também têm caudas preênseis que podem agarrar objetos ou ajudar no equilíbrio durante manobras difíceis. Essas características concedem aos membros desta ancestralidade uma agilidade única que os auxilia em uma variedade de tarefas físicas. Em particular, os simiah são escaladores habilidosos e podem transitar facilmente do movimento bipedal para o caminhar sobre os nós dos dedos e a escalada, e vice-versa. Em média, simiah vivem por cerca de 100 anos.",
+    "feats": [
+      {
+        "name": "Escalador Natural",
+        "text": "Você tem vantagem em Testes de Agilidade que envolvem equilíbrio e escalada."
+      },
+      {
+        "name": "Ágil",
+        "text": "Ganhe um bônus permanente de +1 em sua Evasão na criação do personagem."
+      }
+    ]
+  }
+]
