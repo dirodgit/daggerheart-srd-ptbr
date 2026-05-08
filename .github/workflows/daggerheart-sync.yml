@@ -4,6 +4,15 @@ on:
   push:
     paths:
       - 'contents/**'
+      - 'ancestralidades/**'
+      - 'ancestries/**'
+      - 'adversarios/**'
+      - 'adversaries/**'
+      - 'dominios/**'
+      - 'domains/**'
+      - 'classes/**'
+      - 'subclasses/**'
+      - 'homebrew-kit/**'
     branches:
       - main
 
@@ -43,21 +52,24 @@ jobs:
         sudo apt-get update && sudo apt-get install -y jq
 
         PROMPT=$(jq -Rs . < prompt_clipped.txt)
-        MODEL="${CUSTOM_MODEL_ID:-gpt-5-coração-de-adaga}"
+        MODEL="${CUSTOM_MODEL_ID:-gpt-4o}"
 
-        RESP=$(cat <<'EOF' | curl -s -X POST "https://api.openai.com/v1/chat/completions" \
-          -H "Authorization: Bearer $OPENAI_API_KEY" \
-          -H "Content-Type: application/json" \
-          -d @-)
+        # Usamos um arquivo temporário para o JSON para evitar problemas de escape no shell
+        cat <<EOF > payload.json
 {
   "model": "${MODEL}",
   "messages": [
-    {"role": "system", "content": "Você é Coração de Adaga, um narrador e arquivista de regras de Daggerheart. Gere um resumo das mudanças."},
+    {"role": "system", "content": "Você é Coração de Adaga, um narrador e arquivista de regras de Daggerheart. Gere um resumo das mudanças das regras em português."},
     {"role": "user", "content": ${PROMPT}}
   ],
   "max_tokens": 800
 }
 EOF
+
+        RESP=$(curl -s -X POST "https://api.openai.com/v1/chat/completions" \
+          -H "Authorization: Bearer $OPENAI_API_KEY" \
+          -H "Content-Type: application/json" \
+          -d @payload.json)
 
         echo "$RESP" > response.json
         jq -r '.choices[0].message.content' response.json > session_log.md
@@ -67,5 +79,6 @@ EOF
         git config --global user.name "github-actions"
         git config --global user.email "actions@github.com"
         git add session_log.md
-        git commit -m "Atualização automática de log de sessão" || echo "Sem mudanças"
+        git commit -m "Atualização automática de log de sessão [skip ci]" || echo "Sem mudanças"
         git push
+

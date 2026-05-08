@@ -53,7 +53,17 @@ nav:
           - Introdução: kit-homebrew/Introducao.md
           - Princípios de Design: kit-homebrew/Principios de Design.md
           - Termos-Chave: kit-homebrew/Termos-Chave.md
-          - Guia de Criação: homebrew_kit/
+          - Guia de Criação:
+              - Ancestralidades: kit-homebrew/Ancestralidades.md
+              - Comunidades: kit-homebrew/Comunidades.md
+              - Domínios: kit-homebrew/Dominios.md
+              - Classes: kit-homebrew/Classes.md
+              - Subclasses: kit-homebrew/Subclasses.md
+              - Equipamento e Saque: kit-homebrew/Equipamento e Saque.md
+              - Adversários: kit-homebrew/Adversarios.md
+              - Ambientes: kit-homebrew/Ambientes.md
+              - Frames de Campanha: kit-homebrew/Frames de Campanha.md
+
   - 🇺🇸 English (Original):
       - Rules:
           - What Is This: contents/What Is This.md
