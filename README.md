@@ -1,68 +1,31 @@
-# DAGGERHEART SRD
+# DAGGERHEART SRD (Bilingual EN / PT-BR)
+
+***Bem-vindo ao DAGGERHEART,*** *um RPG de mesa de fantasia colaborativo de magia incrível e aventuras heroicas e sinceras.*
 
 ***Welcome to DAGGERHEART,*** *a collaborative fantasy tabletop roleplaying game of incredible magic and heroic, heartfelt adventure.*
 
-## SYSTEM REFERENCE DOCUMENT 1.0
+## SYSTEM REFERENCE DOCUMENT 1.0 (Versão em Português)
 
-**SRD Writer: Rob Hebert | Technical Editor: Shawn Banerjee | Layout: Matt Paquette & Co. | Producer: Madigan Hunt**
+Esta é uma versão bilíngue do Daggerheart SRD, traduzida e adaptada para português brasileiro, incluindo o **Homebrew Kit** para criação de conteúdo personalizado.
+
+**SRD Writer: Rob Hebert | Tradução e Adaptação: dirodgit**
 
 This document, including the Witherwild Campaign Frame, is considered Public Game Content per the Darrington Press Community Gaming License. Please read the Darrington Press Community Gaming License before using this material.
 
 © 2025 Critical Role LLC. All rights reserved. For more information, please visit [www.darringtonpress.com/license](http://www.darringtonpress.com/license).
 
-## CONTENTS
+## CONTEÚDO / CONTENTS
 
-### INTRODUCTION
+### 🇧🇷 PORTUGUÊS (PT-BR)
+
+- [O Que É Isso](contents/O%20Que%20É%20Isso.md)
+- [Criação de Personagem](contents/Criação%20de%20Personagem.md)
+- [🛠️ Kit Homebrew](homebrew-kit/Introducao.md)
+
+### 🇺🇸 ENGLISH (Original)
 
 - [What Is This](contents/What%20Is%20This.md)
-- [The Basics](contents/The%20Basics.md)
-
-### [CHARACTER CREATION](contents/Character%20Creation.md)
-
-### CORE MATERIALS
-
-- [Domains](contents/Domains.md)
-- [Classes](contents/Classes.md)
-- [Ancestries](contents/Ancestries.md)
-- [Communities](contents/Communities.md)
-
-### CORE MECHANICS
-
-- [Flow of the Game](contents/Flow%20of%20the%20Game.md)
-- [Core Gameplay Loop](contents/Core%20Gameplay%20Loop.md)
-- [The Spotlight](contents/The%20Spotlight.md)
-- [Turn Order & Action Economy](contents/Turn%20Order%20and%20Action%20Economy.md)
-- [Making Moves & Taking Action](contents/Making%20Moves%20and%20Taking%20Action.md)
-- [Combat](contents/Combat.md)
-- [Stress](contents/Stress.md)
-- [Attacking](contents/Attacking.md)
-- [Maps, Range, and Movement](contents/Maps,%20Range,%20and%20Movement.md)
-- [Conditions](contents/Conditions.md)
-- [Downtime](contents/Downtime.md)
-- [Death](contents/Death.md)
-- [Additional Rules](contents/Additional%20Rules.md)
-- [Leveling Up](contents/Leveling%20Up.md)
-- [Multiclassing](contents/Multiclassing.md)
-- [Equipment](contents/Equipment.md)
-- [Weapons](contents/Weapons.md)
-- [Combat Wheelchair](contents/Combat%20Wheelchair.md)
-- [Armor](contents/Armor.md)
-- [Loot](contents/Loot.md)
-- [Consumables](contents/Consumables.md)
-- [Gold](contents/Gold.md)
-
-### RUNNING AN ADVENTURE
-
-- [GM Guidance](contents/GM%20Guidance.md)
-- [Core GM Mechanics](contents/Core%20GM%20Mechanics.md)
-- [Adversaries](contents/Adversaries.md)
-- [Environments](contents/Environments.md)
-- [Additional GM Guidance](contents/Additional%20GM%20Guidance.md)
-- [Campaign Frames](contents/Campaign%20Frames.md)
-
-### APPENDIX
-
-- [Domain Card Reference](contents/Domain%20Card%20Reference.md)
+- [Character Creation](contents/Character%20Creation.md)
 
 ---
 
@@ -76,4 +39,5 @@ For full license terms, see: https://www.daggerheart.com/
 
 ---
 
-[https://seansbox.github.io/daggerheart-srd/](https://seansbox.github.io/daggerheart-srd/)
+[https://dirodgit.github.io/daggerheart-srd-ptbr/](https://dirodgit.github.io/daggerheart-srd-ptbr/)
+
