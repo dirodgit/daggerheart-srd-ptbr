@@ -1,0 +1,4060 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://dirodgit.github.io/daggerheart-srd-ptbr/contents/Core%20GM%20Mechanics/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>CORE GM MECHANICS - DAGGERHEART SRD (Bilingual EN/PT-BR)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#core-gm-mechanics" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="DAGGERHEART SRD (Bilingual EN/PT-BR)" class="md-header__button md-logo" aria-label="DAGGERHEART SRD (Bilingual EN/PT-BR)" data-md-component="logo">
+      
+  <img src="../../favicon.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            DAGGERHEART SRD (Bilingual EN/PT-BR)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CORE GM MECHANICS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dirodgit/daggerheart-srd-ptbr" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Início
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../O%20Que%20%C3%89%20Isso/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🇧🇷 Português (PT-BR)
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../What%20Is%20This/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🇺🇸 English (Original)
+
+        </a>
+      </li>
+    
+  
+
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="DAGGERHEART SRD (Bilingual EN/PT-BR)" class="md-nav__button md-logo" aria-label="DAGGERHEART SRD (Bilingual EN/PT-BR)" data-md-component="logo">
+      
+  <img src="../../favicon.png" alt="logo">
+
+    </a>
+    DAGGERHEART SRD (Bilingual EN/PT-BR)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dirodgit/daggerheart-srd-ptbr" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Início
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🇧🇷 Português (PT-BR)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🇧🇷 Português (PT-BR)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regras Principais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Regras Principais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../O%20Que%20%C3%89%20Isso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    O Que É Isso
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../O%20B%C3%A1sico/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    O Básico
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ciclo%20de%20Jogo%20Principal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ciclo de Jogo Principal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../O%20Foco/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    O Foco
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Ordem%20de%20Turno%20e%20Economia%20de%20A%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ordem de Turno
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Combate/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combate
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Fadiga/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fadiga
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Condi%C3%A7%C3%B5es/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Condições
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Morte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Morte
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Criação de Personagem
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Criação de Personagem
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Cria%C3%A7%C3%A3o%20de%20Personagem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestralidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestralidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../comunidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comunidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dominios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domínios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../subclasses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subclasses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Equipamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tabelas%20de%20Armaduras/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armaduras
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tabelas%20de%20Armas%20Principais/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armas Principais
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tabelas%20de%20Armas%20Secund%C3%A1rias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armas Secundárias
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Consum%C3%ADveis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Consumíveis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tesouros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tesouros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mestre e Aventura
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mestre e Aventura
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Orienta%C3%A7%C3%B5es%20para%20o%20Mestre/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Orientações
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adversarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adversários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ambientes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ambientes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../frames/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frames de Campanha
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🛠️ Kit Homebrew
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🛠️ Kit Homebrew
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Principios%20de%20Design/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Princípios de Design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Termos-Chave/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Termos-Chave
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5_4" id="__nav_2_5_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de Criação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_5_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guia de Criação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Ancestralidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestralidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Comunidades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Comunidades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Dominios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domínios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Classes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Subclasses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subclasses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Equipamento%20e%20Saque/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipamento e Saque
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Adversarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adversários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Ambientes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ambientes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../kit-homebrew/Frames%20de%20Campanha/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frames de Campanha
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🇺🇸 English (Original)
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    🇺🇸 English (Original)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rules
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Rules
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../What%20Is%20This/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    What Is This
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Core%20Gameplay%20Loop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core Gameplay Loop
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The%20Spotlight/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Spotlight
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Turn%20Order%20and%20Action%20Economy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Turn Order
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Combat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Stress/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stress
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Conditions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conditions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Death/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Death
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Character Creation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Character Creation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ancestries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancestries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../communities/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Communities
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../domains/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Domains
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../classes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../subclasses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subclasses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipment
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Equipment
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Armor%20Tables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Armor
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Primary%20Weapon%20Tables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Primary Weapons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Secondary%20Weapon%20Tables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Secondary Weapons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Consumables/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Consumables
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Loot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GM & Adventures
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    GM & Adventures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../GM%20Guidance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GM Guidance
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../adversaries/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adversaries
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../environments/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Environments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Campaign%20Frames/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Campaign Frames
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#rolling-dice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ROLLING DICE
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ROLLING DICE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adversary-attack-rolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ADVERSARY ATTACK ROLLS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guidance-on-action-rolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GUIDANCE ON ACTION ROLLS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#making-moves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MAKING MOVES
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MAKING MOVES">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#when-to-make-a-move" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        WHEN TO MAKE A MOVE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choosing-gm-moves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CHOOSING GM MOVES
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#quick-reference-resolving-action-rolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        QUICK REFERENCE: RESOLVING ACTION ROLLS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#soft-and-hard-moves" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SOFT AND HARD MOVES
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-fear" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        USING FEAR
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#difficulty-benchmarks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DIFFICULTY BENCHMARKS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DIFFICULTY BENCHMARKS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#agility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AGILITY
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strength" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        STRENGTH
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#finesse" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FINESSE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instinct" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INSTINCT
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#presence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PRESENCE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#knowledge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        KNOWLEDGE
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#giving-advantage-and-disadvantage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GIVING ADVANTAGE AND DISADVANTAGE
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GIVING ADVANTAGE AND DISADVANTAGE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adversary-action-rolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ADVERSARY ACTION ROLLS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adversary-advantage-disadvantage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ADVERSARY ADVANTAGE &amp; DISADVANTAGE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#adversary-attacks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ADVERSARY ATTACKS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#countdowns" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        COUNTDOWNS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dynamic-countdown-advancement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DYNAMIC COUNTDOWN ADVANCEMENT
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="DYNAMIC COUNTDOWN ADVANCEMENT">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#advanced-countdown-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ADVANCED COUNTDOWN FEATURES
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#giving-out-gold-equipment-and-loot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GIVING OUT GOLD, EQUIPMENT, AND LOOT
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-gm-npcs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RUNNING GM NPCS
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#npc-feature-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NPC FEATURE EXAMPLES
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="NPC FEATURE EXAMPLES">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arcane-hold" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ARCANE HOLD
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#volley-of-arrows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VOLLEY OF ARROWS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mentor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MENTOR
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regroup" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        REGROUP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#into-the-night" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        INTO THE NIGHT
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-gm-mechanics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        OPTIONAL GM MECHANICS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="OPTIONAL GM MECHANICS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fate-rolls" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FATE ROLLS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#falling-and-collision-damage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        FALLING AND COLLISION DAMAGE
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#moving-and-fighting-underwater" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MOVING AND FIGHTING UNDERWATER
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conflict-between-players" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CONFLICT BETWEEN PLAYERS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="core-gm-mechanics">CORE GM MECHANICS</h1>
+<h2 id="rolling-dice">ROLLING DICE</h2>
+<p>The GM has no Duality Dice; instead, they roll a single d20 called the GM’s Die.</p>
+<h3 id="adversary-attack-rolls">ADVERSARY ATTACK ROLLS</h3>
+<p>When an adversary attacks a PC, roll your d20 and add the adversary’s attack bonus to the result. If the total meets or beats the target’s Evasion, the attack succeeds; otherwise, the attack fails. On a successful attack, roll the attack’s damage dice to determine how much it deals.</p>
+<p>If you roll a natural 20 on an attack, your roll automatically succeeds and you deal extra damage. Roll damage normally, then add the highest number on the damage dice to the total. For example, an attack that deals 3d6+2 deals 18+3d6+2 on a critical success; the critical success does not affect the flat damage modifier.</p>
+<blockquote>
+<p><strong><em>Note:</em></strong> <em>A critical success on an adversary’s reaction roll automatically succeeds, but confers no additional benefit.</em></p>
+</blockquote>
+<h3 id="guidance-on-action-rolls">GUIDANCE ON ACTION ROLLS</h3>
+<p>After a player describes a move they want to make during the game, you might decide an action roll is necessary to determine how the scene progresses. Use this guide to determine what to present the player, choosing whichever option best fits the situation:</p>
+<ul>
+<li>Determine whether the roll is necessary, considering the PC’s Experiences or backstory, the pressure they’re acting under, and the possible outcomes.</li>
+<li>Establish the stakes of an action roll before the player makes it.</li>
+<li>Communicate any unavoidable consequences.</li>
+<li>If desired, you can offer the player the opportunity to forgo an action roll in exchange for agreeing to an interesting outcome, cost, or complication.</li>
+</ul>
+<h2 id="making-moves">MAKING MOVES</h2>
+<p>As the GM, you have <strong>GM moves</strong> that change the story in response to the players’ actions. GM moves aren’t bound by specific spells or effects—when you make a GM move, you can describe the action in whatever way the fiction demands.</p>
+<p>GM moves happen during <strong>GM turns</strong>. A GM turn begins when the spotlight passes to them and ends when the spotlight passes back to the players.</p>
+<h3 id="when-to-make-a-move">WHEN TO MAKE A MOVE</h3>
+<p>The GM can make a GM move whenever you want, but the frequency and severity depends on the type of story you’re telling, the actions your players take, and the tone of the session you’re running.</p>
+<p>Make a GM move when the players:</p>
+<ul>
+<li>Roll with Fear</li>
+<li>Fail an action roll</li>
+<li>Do something that has unavoidable consequences</li>
+<li>Give you a “golden opportunity” (an opening that demands an immediate response)</li>
+<li>Look to you for what happens next</li>
+</ul>
+<h3 id="choosing-gm-moves">CHOOSING GM MOVES</h3>
+<p>The result of a player’s action roll determines your response:</p>
+<p>On a <strong>Critical Success</strong>, you let the player describe their success, then give them an additional opportunity or advantage.</p>
+<p>On a <strong>Success with Hope</strong>, you let the player describe their success, then you show how the world reacts to it.</p>
+<p>On a <strong>Success with Fear</strong>, you work with the player to describe their success, then take a Fear and make a GM move to introduce a minor consequence, complication, or cost:</p>
+<ul>
+<li>An adversary attacks</li>
+<li>The PC marks a Stress</li>
+<li>You introduce a new threat</li>
+<li>You raise the stakes of the conflict</li>
+</ul>
+<p>On a <strong>Failure with Hope</strong>, you describe how the PC fails to get what they want, then make a GM move to introduce a minor consequence, complication, or cost:</p>
+<ul>
+<li>An adversary attacks</li>
+<li>The PC marks a Stress</li>
+<li>You introduce a new threat</li>
+<li>You raise the stakes of the conflict</li>
+</ul>
+<p>On a <strong>Failure with Fear</strong>, you describe how things go wrong, then make a GM move to introduce a major consequence, complication, or cost:</p>
+<ul>
+<li>You put them in immediate danger</li>
+<li>They become the focus of multiple adversaries</li>
+<li>They are separated from their party</li>
+<li>They lose an important opportunity for good.</li>
+</ul>
+<h3 id="quick-reference-resolving-action-rolls">QUICK REFERENCE: RESOLVING ACTION ROLLS</h3>
+<p><em>If you’re unsure how to resolve a roll, think about these quick phrases:</em></p>
+<ul>
+<li><strong>Success with Hope:</strong> Yes, and... (You get what you want and gain a Hope.)</li>
+<li><strong>Success with Fear:</strong> Yes, but... (You get what you want, but there’s a consequence, and the GM gains a Fear.)</li>
+<li><strong>Failure with Hope:</strong> No, but... (Things don’t go as planned, but you gain a Hope.)</li>
+<li><strong>Failure with Fear:</strong> No, and... (Things don’t go as planned and it gets worse. The GM gains a Fear.)</li>
+</ul>
+<p>If the move you should make is not obvious from the fiction, draw inspiration from the “Example GM Moves” list:</p>
+<ul>
+<li>Introduce a new obstacle or enemy</li>
+<li>Ask the player what happens</li>
+<li>Have the PC mark a Stress</li>
+<li>Tell the players “everything is fine... for now.”</li>
+</ul>
+<h3 id="soft-and-hard-moves">SOFT AND HARD MOVES</h3>
+<p><strong>Soft moves</strong> go easier on the players—they give the party new information about the scene and offer them an opportunity to react to it. <strong>Hard moves</strong> are harsher, more impactful, or more direct—the PCs don’t get an opening to interrupt, alter, or anticipate the outcome.</p>
+<p>Use softer moves on rolls with Hope and harder moves on rolls with Fear.</p>
+<blockquote>
+<p><strong>Example GM Moves</strong></p>
+<p>• Show how the world reacts
+• Ask a question and build on the answer
+• Make an NPC act in accordance with their motive
+• Drive a PC to take action by dangling their goals in front of them
+• Signal an imminent off-screen threat
+• Reveal an unwelcome truth or unexpected danger
+• Force the group to split up
+• Make a PC mark Stress
+• Make a move the characters don’t see
+• Show the collateral damage
+• Clear an adversary’s condition
+• Shift the environment
+• Spotlight an adversary
+• Capture someone or something important
+• Use a PC’s backstory against them
+• Take away an opportunity permanently.</p>
+</blockquote>
+<h2 id="using-fear">USING FEAR</h2>
+<p>You start a campaign with 1 Fear per PC in the party.</p>
+<p>You gain Fear whenever a PC rolls with Fear, the PCs take a rest (see: Downtime), or when an ability or effect tells you to.</p>
+<p>You can never have more than 12 Fear at one time.</p>
+<p>Fear carries over between sessions.</p>
+<p>Spend a Fear to:</p>
+<ul>
+<li>Interrupt the players to steal the spotlight and make a move</li>
+<li>Make an additional GM move</li>
+<li>Use an adversary’s Fear Feature</li>
+<li>Use an environment’s Fear Feature</li>
+<li>Add an adversary’s Experience to a roll</li>
+</ul>
+<p>The dramatic tension of a scene correlates with the amount of Fear you spend during it. For guidance on how much Fear you should spend in a scene, consult the following table:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th style="text-align: center;"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Incidental</strong></td>
+<td>A catch-up between PCs after an emotionally charged scene; gathering information; resupplying at a local market; resting during downtime.</td>
+<td style="text-align: center;">0–1 Fear</td>
+</tr>
+<tr>
+<td><strong>Minor</strong></td>
+<td>A travel sequence; a minor skirmish that introduces new foes or signals future trouble.</td>
+<td style="text-align: center;">1–3 Fear</td>
+</tr>
+<tr>
+<td><strong>Standard</strong></td>
+<td>A substantial battle with a notable objective; perilous travel that tests might and wit; a tense social encounter seeking crucial information or aid.</td>
+<td style="text-align: center;">2–4 Fear</td>
+</tr>
+<tr>
+<td><strong>Major</strong></td>
+<td>A large battle with a Solo or Leader adversary; a character-defining scene with a significant change to a character’s personal story (such as revelation, growth, and betrayal).</td>
+<td style="text-align: center;">4–8 Fear</td>
+</tr>
+<tr>
+<td><strong>Climactic</strong></td>
+<td>A major confrontation with the villain of a story arc; an epic set piece battle; a judicial duel to determine an important NPC’s fate.</td>
+<td style="text-align: center;">6–12 Fear</td>
+</tr>
+</tbody>
+</table>
+<p>If you find yourself with a <strong>large amount of Fear</strong>, consider:</p>
+<ul>
+<li><strong>Spending Fast</strong>: Spend Fear before the players have a chance to react.</li>
+<li><strong>Spending Often</strong>: Spend Fear every time the spotlight swings to you.</li>
+<li><strong>Spending Big</strong>: Spend Fear to make multiple moves in a row.</li>
+</ul>
+<p>Spending Fear to make a move communicates the increased impact of your action. Fear moves often include one or more of these elements:</p>
+<ul>
+<li>Introducing new adversaries to a scene when their appearance hasn’t been foreshadowed or lacks context.</li>
+<li>An adversary activating a powerful spell or transformation to deal massive damage or boost their capabilities.</li>
+<li>An environment exerting a strong negative effect on the party.</li>
+</ul>
+<h2 id="difficulty-benchmarks">DIFFICULTY BENCHMARKS</h2>
+<p>The Difficulty of an attack roll against an adversary is equal to the adversary’s Difficulty score. The Difficulty of any other action rolls against an adversary is equal to the adversary’s Difficulty score, plus (if applicable) the value of one of the adversary relevant Experience modifiers.</p>
+<p>When a player makes an action roll without a specified Difficulty, the GM sets the Difficulty according to the totality of the circumstances. Refer to the following benchmark table for more guidance:</p>
+<h3 id="agility">AGILITY</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Roll</strong></th>
+<th><strong>SPRINT</strong></th>
+<th><strong>LEAP</strong></th>
+<th><strong>MANEUVER</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td>Sprint within Close range across an open field with an enemy present.</td>
+<td>Make a running jump of half your height (about 3 feet for a human).</td>
+<td>Walk slowly across a narrow beam.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>10</strong></td>
+<td>Sprint within Far range across an open field with an enemy present.</td>
+<td>Make a running jump of your height (about 6 feet for a human).</td>
+<td>Walk quickly across a narrow beam.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>15</strong></td>
+<td>Sprint within Close range across rough terrain with an enemy present.</td>
+<td>Make a running jump of double your height (about 12 feet for a human).</td>
+<td>Run across a narrow beam.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>20</strong></td>
+<td>Sprint within Close range through an active battle of multiple enemies.</td>
+<td>Make a running jump of three times your height (about 18 feet for a human).</td>
+<td>Run across a narrow beam in heavy wind.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>25</strong></td>
+<td>Sprint within Far range through a pitched battle in rough terrain.</td>
+<td>Make a running jump of five times your height (about 30 feet for a human).</td>
+<td>Run across a very narrow beam in an active rainstorm.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>30</strong></td>
+<td>Sprint across the heads of your enemies in a pitched battle.</td>
+<td>Make a running jump of ten times your height (about 60 feet for a human).</td>
+<td>Run across an inch-wide, oil-slicked beam in an active rainstorm.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="strength">STRENGTH</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>ROLL</strong></th>
+<th><strong>LIFT</strong></th>
+<th><strong>SMASH</strong></th>
+<th><strong>GRAPPLE</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td>Lift a chair.</td>
+<td>Destroy a glass cup.</td>
+<td>Subdue a child.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>10</strong></td>
+<td>Lift a table or small chest.</td>
+<td>Destroy a small wooden table.</td>
+<td>Subdue a weak adult.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>15</strong></td>
+<td>Lift a grown person or large chest.</td>
+<td>Break through a wooden door.</td>
+<td>Subdue an average adult.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>20</strong></td>
+<td>Lift the side of a laden cart or carry a large chest up stairs.</td>
+<td>Break through a stone wall.</td>
+<td>Subdue a skilled wrestler.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>25</strong></td>
+<td>Lift a horse, an ox, or a large monster.</td>
+<td>Break through a dragon’s teeth.</td>
+<td>Subdue a large beast.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>30</strong></td>
+<td>Lift a falling portcullis gate.</td>
+<td>Break a god’s grip.</td>
+<td>Subdue a legendary beast.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="finesse">FINESSE</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>ROLL</strong></th>
+<th><strong>CONTROL</strong></th>
+<th><strong>HIDE</strong></th>
+<th><strong>TINKER</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td>Ride a horse through easy terrain.</td>
+<td>Evade notice under full cover on a moonless night.</td>
+<td>Open a sticky lock with the appropriate key.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>10</strong></td>
+<td>Drive an ox-pulled cart.</td>
+<td>Evade notice in limited cover on a moonless night.</td>
+<td>Open a simple puzzle box.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>15</strong></td>
+<td>Ride a horse through rough terrain.</td>
+<td>Evade notice in limited cover on an average night.</td>
+<td>Disable a standard trap.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>20</strong></td>
+<td>Drive a cart through rough terrain.</td>
+<td>Evade notice in the shadows on an average night.</td>
+<td>Disable a complicated trap.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>25</strong></td>
+<td>Ride a wild horse through dangerous terrain.</td>
+<td>Evade notice with minimal cover in ample light.</td>
+<td>Open a door secured by a sequence of elaborate locks.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>30</strong></td>
+<td>Ride an enraged beast through dangerous terrain.</td>
+<td>Evade notice with no cover in full daylight.</td>
+<td>Disable an incredibly sensitive and deadly trap.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="instinct">INSTINCT</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>ROLL</strong></th>
+<th><strong>PERCEIVE</strong></th>
+<th><strong>SENSE</strong></th>
+<th><strong>NAVIGATE</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td>Hear a loud noise twenty paces away.</td>
+<td>Detect an obvious ambush or notice an obvious deception.</td>
+<td>Follow a well-trod path in good lighting and weather.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>10</strong></td>
+<td>Hear a speaking voice fifty paces away.</td>
+<td>Detect a looming threat or notice an average person’s lies.</td>
+<td>Follow an average path in good lighting and weather.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>15</strong></td>
+<td>Hear someone walking in the woods fifty paces away.</td>
+<td>Detect hostile intent from a foe or see through a merchant’s lies.</td>
+<td>Follow a subtle path through rough conditions.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>20</strong></td>
+<td>Hear someone sneaking through the woods fifty paces away.</td>
+<td>Detect a politician’s veiled hostility or detect a nearby assassin.</td>
+<td>Follow a subtle path through harsh conditions.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>25</strong></td>
+<td>Hear a prowling animal fifty paces away.</td>
+<td>Identify a spymaster’s plot or read a politician’s true intentions.</td>
+<td>Find your way with no path through dangerous conditions.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>30</strong></td>
+<td>Hear a diving bird a hundred paces away.</td>
+<td>Sense a shred of doubt within a god’s pronouncement.</td>
+<td>Find your way through a trickery god’s maze.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="presence">PRESENCE</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>ROLL</strong></th>
+<th><strong>CHARM</strong></th>
+<th><strong>PERFORM</strong></th>
+<th><strong>DECEIVE</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td>Win the trust of a friendly neighbor.</td>
+<td>Earn a meal from a friendly crowd.</td>
+<td>Trick a trusting acquaintance.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>10</strong></td>
+<td>Win the trust of a friendly stranger.</td>
+<td>Earn room and board in a small town or impress a small crowd.</td>
+<td>Trick an average stranger.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>15</strong></td>
+<td>Win the trust of a cautious stranger or talk your way into a noble’s party.</td>
+<td>Earn room and board in a low-end tavern or impress a large crowd.</td>
+<td>Trick an average merchant.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>20</strong></td>
+<td>Win the trust of a sympathetic foe or talk your way into an enemy’s party.</td>
+<td>Earn lodging in a high-end tavern or impress a full theater.</td>
+<td>Trick a trained courtier.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>25</strong></td>
+<td>Turn an enemy against their ruler or talk your way into a fae court.</td>
+<td>Earn your keep in a royal court or impress a full colosseum.</td>
+<td>Trick a spymaster.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>30</strong></td>
+<td>Talk a hostile god into granting you a boon.</td>
+<td>Save yourself from execution after offending the queen.</td>
+<td>Trick a god.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="knowledge">KNOWLEDGE</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>ROLL</strong></th>
+<th><strong>RECALL</strong></th>
+<th><strong>ANALYZE</strong></th>
+<th><strong>COMPREHEND</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>5</strong></td>
+<td>Recall uncommon facts about your community.</td>
+<td>Unpack an obvious metaphor in a simple text.</td>
+<td>Learn simple skills from an excellent teacher.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>10</strong></td>
+<td>Recall uncommon facts about a neighboring community.</td>
+<td>Identify obvious subtext in a conversation.</td>
+<td>Learn simple skills from an average teacher.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>15</strong></td>
+<td>Recall uncommon facts about a distant community.</td>
+<td>Break an average cipher in a coded message.</td>
+<td>Learn complicated skills from an excellent teacher.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>20</strong></td>
+<td>Recall specialized facts about a distant community.</td>
+<td>Identify a weakness in a complicated battle plan.</td>
+<td>Learn complicated skills under poor conditions.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>25</strong></td>
+<td>Recall specialized facts about a fallen kingdom.</td>
+<td>Predict the downfall of a nation based on concealed misdeeds.</td>
+<td>Learn complicated skills quickly under dangerous conditions.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>30</strong></td>
+<td>Recall secret information about an obscure historical group.</td>
+<td>Identify the weakness in a divine champion’s fighting form.</td>
+<td>Learn complicated skills quickly from incomplete information.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="giving-advantage-and-disadvantage">GIVING ADVANTAGE AND DISADVANTAGE</h2>
+<p>To viscerally convey how a PC’s actions or circumstances affect their ability to act, grant them advantage or impose disadvantage instead of adjusting the Difficulty of an action roll.</p>
+<h3 id="adversary-action-rolls">ADVERSARY ACTION ROLLS</h3>
+<p>By default, adversaries don’t normally make action rolls except for attack rolls and any unique actions described in their stat blocks. Any other action an adversary attempts simply succeeds without an action roll; if you want an adversary’s action to have a chance of failure, have any relevant PCs make reaction rolls instead.</p>
+<p>However, for especially dramatic or difficult tasks that the PCs can’t influence, you can give an adversary an <strong>action roll</strong> anyway. For an adversary’s action roll, roll a d20. If the result is equal to or greater than the action’s Difficulty, the action succeeds—otherwise it fails. You can spend a Fear before rolling to add a relevant Experience from the adversary’s stat block to the total. Use the same procedure when an adversary makes a <strong>reaction roll</strong>.</p>
+<h3 id="adversary-advantage-disadvantage">ADVERSARY ADVANTAGE &amp; DISADVANTAGE</h3>
+<p>If an adversary has advantage on an action roll, the GM rolls an extra d20 and counts only the higher result. If an adversary has disadvantage on an action roll, the GM rolls an extra d20 and counts only the lower result.</p>
+<h3 id="adversary-attacks">ADVERSARY ATTACKS</h3>
+<p>When an adversary attacks a PC, the GM rolls a d20 and adds the adversary’s Attack Modifier to the result. If the total meets or beats the target’s Evasion, the attack succeeds; otherwise, it fails. Before rolling, the GM can grant the attacking adversary advantage, impose disadvantage, or spend a Fear to add a relevant Experience from the adversary’s stat block to the total.</p>
+<p>On a success, the adversary deals the damage listed in their stat block to the target.</p>
+<p>When an adversary’s action lets the GM make an <strong>attack against multiple targets</strong>, they make one attack roll and compare it to each target’s Evasion separately.</p>
+<h2 id="countdowns">COUNTDOWNS</h2>
+<p><strong>Countdowns</strong> represent a period of time or series of events preceding a future effect. A countdown begins at a starting value. When a countdown <strong>advances</strong>, it’s reduced by 1. The countdown’s effect is triggered when the countdown reaches 0.</p>
+<blockquote>
+<p><em>Note: You can track countdowns by “spinning down” dice or ticking off boxes.</em></p>
+</blockquote>
+<p><strong>Standard countdowns</strong> advance every time a player makes an action roll. If an adversary or environment ability refers to a “Countdown [n],” then it means a standard countdown with a starting value of n.</p>
+<p><strong>Dynamic countdowns</strong> advance by up to 3 depending on the outcomes of action rolls. <strong>Consequence countdowns</strong> are dynamic countdowns to negative effects. <strong>Progress countdowns</strong> are dynamic countdowns to positive effects. Dynamic countdowns advance according to this chart:</p>
+<h2 id="dynamic-countdown-advancement">DYNAMIC COUNTDOWN ADVANCEMENT</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Roll Result</strong></th>
+<th><strong>Progress Advancement</strong></th>
+<th><strong>Consequence Advancement</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Failure with Fear</td>
+<td>No advancement</td>
+<td>Tick down 3</td>
+</tr>
+<tr>
+<td>Failure with Hope</td>
+<td>No advancement</td>
+<td>Tick down 2</td>
+</tr>
+<tr>
+<td>Success with Fear</td>
+<td>Tick down 1</td>
+<td>Tick down 1</td>
+</tr>
+<tr>
+<td>Success with Hope</td>
+<td>Tick down 2</td>
+<td>No advancement</td>
+</tr>
+<tr>
+<td>Critical Success</td>
+<td>Tick down 3</td>
+<td>No advancement</td>
+</tr>
+</tbody>
+</table>
+<h3 id="advanced-countdown-features">ADVANCED COUNTDOWN FEATURES</h3>
+<ul>
+<li>Countdowns with <strong>randomized starting values.</strong></li>
+<li><strong>Loop countdowns</strong> that reset to their starting value after their countdown effect is triggered.</li>
+<li><strong>Increasing</strong> countdowns that increase their starting value by 1 every time they loop.</li>
+<li><strong>Decreasing</strong> countdowns that decrease their starting value by 1 every time they loop.</li>
+<li><strong>Linked</strong> progress and consequence countdowns that simultaneously advance according to the same action roll outcomes.</li>
+<li><strong>Long-term countdowns</strong> that advance after <strong>rests</strong> instead of action rolls.</li>
+</ul>
+<h2 id="giving-out-gold-equipment-and-loot">GIVING OUT GOLD, EQUIPMENT, AND LOOT</h2>
+<p>It’s up to you and your players how much importance you want to place on gold, equipment, and loot in your campaign.</p>
+<p>Adjust the availability and utility of wealth and equipment to reflect the tone, themes, and setting of your campaign.</p>
+<p>If you don’t wish to track gold, then when PCs go shopping for new items let them pick one or two from a short, preselected list that aligns with your campaign setting and the party’s current location.</p>
+<p>Otherwise, set the prices of goods and services by adjusting the entries in the Average Costs table to reflect your campaign setting:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Meals for a party of adventurers per night</td>
+<td>1 Handful</td>
+</tr>
+<tr>
+<td>Standard inn room per night</td>
+<td>1 Handful</td>
+</tr>
+<tr>
+<td>Luxury inn room per night</td>
+<td>1 Bag</td>
+</tr>
+<tr>
+<td>Carriage ride</td>
+<td>2 Handfuls</td>
+</tr>
+<tr>
+<td>Mount (horse, mule, etc.)</td>
+<td>3 Bags</td>
+</tr>
+<tr>
+<td>Specialized tools</td>
+<td>3 Handfuls</td>
+</tr>
+<tr>
+<td>Fine clothing</td>
+<td>3 Handfuls</td>
+</tr>
+<tr>
+<td>Luxury clothing</td>
+<td>1 Bag</td>
+</tr>
+<tr>
+<td>Tier 1 equipment (weapons, armor)</td>
+<td>1–5 Handfuls</td>
+</tr>
+<tr>
+<td>Tier 2 equipment (weapons, armor)</td>
+<td>1–2 Bags</td>
+</tr>
+<tr>
+<td>Tier 3 equipment (weapons, armor)</td>
+<td>5–10 Bags</td>
+</tr>
+<tr>
+<td>Tier 4 equipment (weapons, armor)</td>
+<td>1–2 Chests</td>
+</tr>
+</tbody>
+</table>
+<h2 id="running-gm-npcs">RUNNING GM NPCS</h2>
+<p>When you run NPCs as the GM, you should always strive to follow your GM principles and use them to bring the world to life. Differentiate NPCs with unique manners of speech and action; let their individual goals and desires motivate their actions.</p>
+<p>The only essential elements for a NPC are their <strong>name</strong>, <strong>description</strong>, and <strong>motive</strong>. If it’s likely that the PCs will roll actions against them, give them a <strong>Difficulty</strong>. Adversaries can be invented or improvised by modifying the stat block of another adversary.</p>
+<p>If an NPC becomes an ally in combat, they don’t need a stat block—just put the spotlight on what they do and show how their involvement alters the fiction. If a PC capitalizes on their help during the scene, give the PC advantage. NPCs that don’t have Hit Points or Stress can still be injured or killed if the fiction demands it.</p>
+<p>If you want an important NPC to mechanically interact with the system, you can give them one or more features with specific <strong>triggers</strong> and <strong>effects</strong>. An NPC might also have a choice that adjusts the parameters of their feature. For example:</p>
+<h2 id="npc-feature-examples">NPC FEATURE EXAMPLES</h2>
+<h3 id="arcane-hold">ARCANE HOLD</h3>
+<ul>
+<li><strong><em>Choice:</em></strong> When the battle begins, choose a favored PC.</li>
+<li><strong><em>Trigger:</em></strong> The first time during a battle the favored PC is within Close range and hit with an attack.</li>
+<li><strong><em>Effect:</em></strong> Make an attack roll with a +6 modifier against the adversary. On a success, the target is temporarily Restrained by tendrils of powerful magic.</li>
+</ul>
+<h3 id="volley-of-arrows">VOLLEY OF ARROWS</h3>
+<ul>
+<li><strong><em>Trigger:</em></strong> A battle begins and this NPC is involved.</li>
+<li><strong><em>Effect:</em></strong> Activate a countdown (Loop 3). It ticks down when a PC misses an attack. When it triggers, this NPC releases a volley of arrows at a target of the PCs’ choice, dealing 2d8+3 physical damage.</li>
+</ul>
+<h3 id="mentor">MENTOR</h3>
+<ul>
+<li><strong><em>Choice:</em></strong> When the battle begins, choose a protégé PC.</li>
+<li><strong><em>Trigger:</em></strong> Your protégé is within Close range and fails an attack roll.</li>
+<li><strong><em>Effect:</em></strong> Move into Melee range with the PC and give them advice or guidance. The next attack roll they make has advantage.</li>
+</ul>
+<h3 id="regroup">REGROUP</h3>
+<ul>
+<li><strong><em>Choice:</em></strong> When a battle begins, choose a point within Far range.</li>
+<li><strong><em>Trigger:</em></strong> All PCs have marked all of their Armor Slots.</li>
+<li><strong><em>Effect:</em></strong> Teleport all PCs and this NPC to the chosen spot and clear an Armor Slot on each target.</li>
+</ul>
+<h3 id="into-the-night">INTO THE NIGHT</h3>
+<ul>
+<li><strong><em>Trigger:</em></strong> The PCs start a long rest with this NPC.</li>
+<li><strong><em>Effect:</em></strong> Roll 1d4. On a 2 or less, this NPC steals 1 handful of gold from the party while they are sleeping, then disappears into the night.</li>
+</ul>
+<h2 id="optional-gm-mechanics">OPTIONAL GM MECHANICS</h2>
+<h3 id="fate-rolls">FATE ROLLS</h3>
+<p>When the GM wants to leave an outcome entirely up to chance, they call for a fate roll. The GM establishes what’s at stake and how the roll will be interpreted. Then a player rolls one of their Duality Dice and interprets the result.</p>
+<blockquote>
+<p><strong><em>Examples:</em></strong></p>
+<ul>
+<li><em>“Roll your Fear Die. On a 4 or lower, the fire spreads beyond this house.”</em></li>
+<li><em>“I think it’s really up to chance whether reinforcements will make it to you in time. Go ahead and roll your Fear Die—that’ll determine the starting size of the countdown. When that triggers, reinforcements will arrive in your Far range.”</em></li>
+<li><em>“Go ahead and roll your Hope Die to see how big the crowd at the inn is tonight. The higher the roll, the bigger the crowd.”</em></li>
+<li><em>“Make a roll using your Hope Die to determine the number of Stamina Potions the shop has in stock.”</em></li>
+</ul>
+</blockquote>
+<h3 id="falling-and-collision-damage">FALLING AND COLLISION DAMAGE</h3>
+<p>If a character falls to the ground, you can use the following as a guide to determine the damage they take:</p>
+<ul>
+<li>A fall from Very Close range deals 1d10+3 physical damage.</li>
+<li>A fall from Close range deals 1d20+5 physical damage.</li>
+<li>A fall from Far or Very Far range deals 1d100+15 physical damage, or death at the GM’s discretion.</li>
+</ul>
+<p>If a character collides with an object or another character at a dangerous speed, they take 1d20+5 direct physical damage.</p>
+<h3 id="moving-and-fighting-underwater">MOVING AND FIGHTING UNDERWATER</h3>
+<p>By default, attack rolls made while the attacker is underwater have disadvantage.</p>
+<p>For creatures that can’t breathe underwater, use a standard countdown (3) to track how long they can hold their breath. Advance the countdown whenever the PC takes an action. In addition if they fail a roll or roll with Fear while underwater, you can spend your GM move to advance it an additional time—or twice, if they rolled a failure with Fear.</p>
+<p>Once the countdown ends, the underwater PC must mark a Stress whenever they take an action.</p>
+<h3 id="conflict-between-players">CONFLICT BETWEEN PLAYERS</h3>
+<p>Sometimes a player might want their character to act against another PC in the scene. Before resorting to rolling dice, discuss the situation with both players to decide how to resolve the conflict. A roll might not be necessary to reach an outcome—but if rolling will be fun for everyone involved, come to a consensus on the terms of the roll, then facilitate the scene according to the results.</p>
+<p>On an attack roll against a PC, the attacker rolls against the defender’s Evasion, just like an adversary. On any other kind of action roll, the instigator makes an action roll and the target makes a reaction roll. To succeed, the instigator must beat a Difficulty equal to the total value of the reaction roll.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
